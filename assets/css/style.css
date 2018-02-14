@@ -6,7 +6,7 @@ html {
 
 body{
     width: 100%;
-    margin: 0 0 100px; /* bottom = footer height */
+    margin: 0 0 40px; /* bottom = footer height */
     background-image: url("/Users/maryquint/Bootcamp/Basic-Portfolio/assets/images/asanoha-400px.png");
 }
 main{
@@ -87,6 +87,7 @@ div.connect {
     float: right;
     width: 270px;
     background-color: white;
+    display: block;
 }
 div.connect h2{
     text-align: center;
@@ -140,5 +141,5 @@ footer{
     bottom: 0;
     height: 40px;
     width: 100%;
-    overflow: hidden;
+    clear: both;
 }
