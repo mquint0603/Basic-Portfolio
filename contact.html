@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="reset.css">
         <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
     </head>
     <body>
         <header>
@@ -19,25 +20,31 @@
                 <nav> 
                     <ul>
                         <li><a href="index.html">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
                         </ul>
                 </nav>
             </div>
         </header>
 
         <main>
-            <form>
-                <label>Name
-                    <input type="text">
-                </label> 
-                <label>Email
-                        <input type="text">
+           <section>
+               <h2>Contact</h2>
+               <hr>
+                <form>
+                    <label>Name
+                        <input type="text" placeholder="John Smith">
                     </label> 
+                    <label>Email
+                            <input type="text" placeholder="example@gmail.com">
+                        </label> 
                     <label>Message
-                            <input type="text">
-                        </label>                
-            </form>
+                            <input id="message" type="text">
+                        </label>   
+                        <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
 
             <div class="connect">
                     <h2>Connect with me</h2>
