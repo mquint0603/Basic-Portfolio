@@ -51,7 +51,7 @@ nav{
 }
 nav li {
     float: right;
-    display: inline-block;
+    display: block;
     margin: 0 15px 0 15px;
 }
 header div {
@@ -83,7 +83,7 @@ img.me {
 
 /*Connect section*/
 div.connect {
-    display: inline-block;
+    display: block;
     float: right;
     width: 270px;
     background-color: white;
