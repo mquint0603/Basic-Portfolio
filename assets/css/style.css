@@ -7,7 +7,7 @@ html {
 body{
     width: 100%;
     margin: 0 0 40px; 
-    background-image: url("css/asanoha-400px.png")
+    background-image: url("asanoha-400px.png")
    
    /*This should have worked... background-image: url("../images/asanoha-400px.png");*/
 }
