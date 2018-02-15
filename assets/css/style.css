@@ -7,7 +7,7 @@ html {
 body{
     width: 100%;
     margin: 0 0 40px; /* bottom = footer height */
-    background-image: url("assets/images/asanoha-400px.png");
+    background-image: url("../images/asanoha-400px.png");
 }
 main{
     width:960px;
